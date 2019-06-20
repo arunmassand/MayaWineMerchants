@@ -1,0 +1,137 @@
+/* Add to top of every CSS file! */
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.beige {
+    background-color: #f4ede8;
+}
+
+.white {
+    background-color: white;
+}
+
+/* Navigation Bar */
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    background: white;
+}
+
+.top .logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.top img {
+    width: 15%;
+    height: auto;
+    padding: 8px;
+}
+
+.top .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+}
+
+.top .nav a {
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #371a1b;
+    text-decoration: none;
+}
+
+.top .nav a:hover {
+    border-bottom: solid #371a1b 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding-top: 70px;
+}
+
+.tile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+}
+
+.image img {
+    width: 40%;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 100%
+}
+
+.description h1 {
+    margin: 0;
+    color: #371a1b;
+}
+
+.description h2 {
+    margin: 0;
+}
+
+.footer {
+    height: 250px;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    width: 100vw;
+    height: 40px;
+    background-color: white;
+}

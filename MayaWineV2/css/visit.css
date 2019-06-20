@@ -1,0 +1,161 @@
+/* Add to top of every CSS file! */
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+/* Navigation Bar */
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    background: white;
+}
+
+.top .logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.top img {
+    width: 15%;
+    height: auto;
+    padding: 8px;
+}
+
+.top .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+}
+
+.top .nav a {
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #371a1b;
+    text-decoration: none;
+}
+
+.top .nav a:hover {
+    border-bottom: solid #371a1b 2px;
+}
+
+/* Large container */
+.large-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100vw;
+    height: 600px;
+    background-color: #f4ede8;
+}
+
+.content {
+    width: 40%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #673032;
+}
+
+.find-stores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.find-stores h1 {
+    margin-top: 5%;
+    color: #371a1b;
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5px 0 5px;
+}
+
+.store-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.tile {
+    width: 21vw;
+    margin: 2vw;
+    height: 200px;
+    background-color: #f4ede8;
+    flex-wrap: wrap;
+}
+
+.tile h4 {
+    text-align: center;
+    color: #371a1b;
+}
+
+.tile p {
+    padding-left: 10%;
+    color: black;
+}
+
+.divider {
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    align-self: center;
+}
+
+.footer {
+    height: 250px;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    width: 100vw;
+    height: 40px;
+    background-color: white;
+}

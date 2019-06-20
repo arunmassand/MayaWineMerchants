@@ -1,0 +1,205 @@
+/* Add to top of every CSS file! */
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    background-color: #f4ede8;
+}
+
+/* Navigation Bar */
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    background: white;
+}
+
+.top .logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.top img {
+    width: 15%;
+    height: auto;
+    padding: 8px;
+}
+
+.top .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-right: 100px;
+}
+
+.top .nav a {
+    margin: 0px 20px 0px 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: #371a1b;
+    text-decoration: none;
+}
+
+.top .nav a:hover {
+    border-bottom: solid #371a1b 2px;
+}
+
+/* Hero Image */
+.hero {
+    width: 100vw;
+    height: 500px;
+    background-image: url(../images/vineyards-hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding-top: 70px;
+    
+    display: flex;
+    color: white;
+}
+
+.overlay {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content {
+    width: 60%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+/* Wines section */
+.wines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.wines h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #371a1b;
+}
+
+.tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+}
+
+.tile {
+    width: 17vw;
+    margin: 1.5vw;
+    height: 300px;
+    background-color: lightgrey;
+    flex-wrap: wrap;
+}
+
+.divider {
+    width: 90%;
+    height: 3px;
+    background-color: black;
+    align-self: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    width: 100vw;
+    background-color: lightgrey;
+}
+
+.footer-logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img {
+    width: 50%;
+    height: auto;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+
+.footer-nav a:hover {
+    color: #5f4041;
+}
+
+.email {
+    width: 30%;
+    font-size: 20px;
+}
+
+.email-input {
+    background-color: transparent;
+    font-size: 20px;
+    border: solid white 2px;
+}
+
+.button {
+    background-color: #371a1b;
+    font-size: 20px;
+    border: solid white 2px;
+    color: white;
+    border-radius: 20px;
+}
+
+.blurb {
+    text-align: center;
+    padding: 0 10% 0 10%;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    width: 100vw;
+    height: 40px;
+    background-color: white;
+}
